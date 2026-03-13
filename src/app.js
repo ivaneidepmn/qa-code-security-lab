@@ -6,3 +6,4 @@ processUserInput("console.log('testing security')");
 
 
 // pipeline test execution
+// trigger pipeline after workflow creation
