@@ -39,6 +39,9 @@ This approach supports:
 5. QA Engineer evaluates risks and supports quality decision-making  
 
 ---
+## 📸 Pipeline Execution Evidence
+
+![Pipeline Execution](docs/evidences/pipeline-run.gif)
 
 ## 🧠 Key Learning Outcomes
 
