@@ -1,7 +1,6 @@
 <p align="center">
-  <img src="documentos/evidencias/banner-pipeline-de-segurança-qa.png" width="100%" alt="QA Security Pipeline Banner"/>
+  <img src="documentos/evidências/banner-pipeline-de-segurança-qa.png" width="100%" alt="Banner QA Security"/>
 </p>
-
 <h1 align="center">🔐 QA Security Engineering Lab</h1>
 
 <p align="center">
