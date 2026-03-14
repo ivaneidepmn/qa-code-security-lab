@@ -55,3 +55,12 @@ generateReport();
 const userInput = process.argv[2]
 
 eval(userInput)
+
+// Intentionally insecure code for static analysis demonstration only
+const userInput = process.argv[2];
+
+function runDynamicCode(input) {
+  return eval(input);
+}
+
+runDynamicCode(userInput);
