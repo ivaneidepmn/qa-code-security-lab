@@ -2,9 +2,10 @@
   <img src="docs/evidences/banner-pipeline-de-seguranca-qa.png" width="100%" alt="QA Security Pipeline Banner"/>
 </p>
 
-<h1 align="center">🔐 QA Security Engineering Lab</h1>
-
 <p align="center">
+  <img src="docs/evidences/pipeline-codeql-execution.gif" width="90%" alt="Security Pipeline Execution"/>
+</p>
+
 Hands-on engineering project focused on automated security validation and preventive quality practices using GitHub Actions and CodeQL.
 </p>
 
