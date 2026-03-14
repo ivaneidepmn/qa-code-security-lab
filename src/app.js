@@ -52,3 +52,6 @@ login("admin", "123456");
 searchUser("admin' OR '1'='1");
 generateReport();
 
+const userInput = process.argv[2]
+
+eval(userInput)
