@@ -118,3 +118,7 @@ QA Engineer | Test Automation | Software Quality | CI/CD | DevSecOps
 
 Building practical engineering labs to simulate **real-world quality challenges and modern software delivery scenarios.**
 
+QA Engineer | Test Automation | Software Quality | CI/CD | DevSecOps
+
+Building practical engineering labs to simulate **real-world quality challenges and modern software delivery scenarios.**
+
