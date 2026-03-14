@@ -1,12 +1,15 @@
 // QA Security Engineering Lab - Sample Application
 // This file intentionally contains insecure patterns for static analysis study purposes.
 
+const fs = require("fs");
+
+// Simulated user database
 const users = [
   { id: 1, username: "admin", password: "123456" },
   { id: 2, username: "qa_user", password: "password" }
 ];
 
-// Simulated login function
+// ❌ Insecure authentication (plain text password comparison)
 function login(username, password) {
   console.log("Attempting login for:", username);
 
@@ -17,7 +20,6 @@ function login(username, password) {
     return false;
   }
 
-  // ❌ Insecure plain text password comparison
   if (user.password === password) {
     console.log("Login successful");
     return true;
@@ -27,40 +29,35 @@ function login(username, password) {
   return false;
 }
 
-// Simulated data query vulnerable to injection pattern
+// ❌ Simulated SQL Injection vulnerability pattern
 function searchUser(query) {
   const sql = "SELECT * FROM users WHERE username = '" + query + "'";
   console.log("Executing query:", sql);
   return sql;
 }
 
-// Simulated sensitive log exposure
+// ❌ Sensitive information exposure in logs
 function generateReport() {
   console.log("Generating security report...");
-  console.log("Database password: root123"); // ❌ sensitive data exposure
+  console.log("Database password: root123");
 }
 
-// Simulated unsafe file operation
+// ❌ Unsafe file read operation (path injection simulation)
 function loadConfig(path) {
-  const fs = require("fs");
   const data = fs.readFileSync(path, "utf8");
   console.log("Config loaded:", data);
 }
 
-// Execution simulation
-login("admin", "123456");
-searchUser("admin' OR '1'='1");
-generateReport();
-
-const userInput = process.argv[2]
-
-eval(userInput)
-
-// Intentionally insecure code for static analysis demonstration only
-const userInput = process.argv[2];
-
+// ❌ Dynamic code execution vulnerability (Code Injection)
 function runDynamicCode(input) {
   return eval(input);
 }
 
+// ===== Execution Simulation =====
+login("admin", "123456");
+searchUser("admin' OR '1'='1");
+generateReport();
+
+// simulate unsafe dynamic execution
+const userInput = process.argv[2] || "console.log('no input')";
 runDynamicCode(userInput);
