@@ -1,9 +1,5 @@
 <p align="center">
-  <img src="docs/evidences/banner-pipeline-de-seguranca-qa.png" width="100%" alt="QA Security Pipeline Banner"/>
-</p>
-
-<p align="center">
-  <img src="docs/evidences/pipeline-codeql-execution.gif" width="90%" alt="Security Pipeline Execution"/>
+  <img src="documentos/evidences/qa-security-banner.png" width="100%" alt="QA Security Banner"/>
 </p>
 
 Hands-on engineering project focused on automated security validation and preventive quality practices using GitHub Actions and CodeQL.
