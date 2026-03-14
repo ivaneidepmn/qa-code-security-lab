@@ -82,6 +82,14 @@ This workflow enables **continuous security intelligence and proactive quality c
 - Engineering mindset focused on system reliability, resilience and governance  
 
 ---
+## 🏅 Engineering Learning Evidence
+
+<p align="center">
+  <img src="docs/evidences/certifications/microsoft-learn-code-scanning-achievement.png" width="80%"/>
+</p>
+
+Security code scanning concepts were reinforced through Microsoft Learn practical module, supporting real implementation of automated security validation workflows in this engineering lab.
+
 
 ## 🚀 Future Evolution
 
