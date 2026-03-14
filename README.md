@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="./docs/evidences/qa-security-pipeline-banner.png" width="100%" alt="QA Security Pipeline Banner" />
+  <img src="docs/evidences/qa-security-pipeline-banner.png" width="100%" alt="QA Security Pipeline Banner"/>
 </p>
+
 <h1 align="center">🔐 QA Security Engineering Lab</h1>
 
 <p align="center">
@@ -18,74 +19,79 @@ Hands-on engineering project focused on automated security validation and preven
 
 ## 🌎 Engineering Context
 
-Modern software delivery requires **continuous security validation** and proactive quality strategies.  
-This project simulates a real engineering scenario where QA contributes to **risk prevention**, embedding automated static analysis into CI pipelines aligned with **DevSecOps culture**.
+Modern software delivery requires **continuous security validation**, risk prevention strategies and proactive quality engineering practices.  
+This project simulates a real engineering scenario where QA actively contributes to **software resilience**, embedding automated static analysis into CI pipelines aligned with modern **DevSecOps culture**.
 
 ---
 
 ## 🎯 Project Objective
 
-Design and implement an automated **code security scanning workflow** to:
+Design and implement an automated **security scanning workflow** capable of:
 
-- Detect vulnerabilities early in the development lifecycle  
-- Reduce risk exposure before production deployment  
-- Strengthen software reliability and maintainability  
-- Support risk-based engineering decision making  
-- Promote Shift Left quality strategy  
+- Detecting vulnerabilities early in the development lifecycle  
+- Reducing risk exposure before production deployment  
+- Strengthening software reliability and maintainability  
+- Supporting engineering decision-making based on risk analysis  
+- Promoting Shift-Left quality strategy  
 
 ---
 
-## ⚙️ Technology Stack & Practices
+## ⚙️ Technology Stack & Engineering Practices
 
 ### 🔧 Technologies
-- GitHub Actions (CI Orchestration)  
-- CodeQL (Static Application Security Testing)  
-- YAML Workflow Configuration  
+
+- GitHub Actions — CI pipeline orchestration  
+- CodeQL — Static Application Security Testing (SAST)  
+- YAML — workflow configuration  
+- JavaScript — sample application layer  
 
 ### 🧠 Engineering Practices
-- Secure Software Development Lifecycle  
+
+- Secure Software Development Lifecycle (SSDLC)  
 - Preventive Quality Engineering  
-- DevSecOps Collaboration  
-- Continuous Integration Quality Gates  
-- Risk-Based Testing Mindset  
+- DevSecOps collaboration model  
+- Continuous Integration quality validation  
+- Risk-based testing mindset  
 
 ---
 
-## 🔄 Secure Pipeline Flow
+## 🔄 Secure CI Pipeline Flow
 
 1️⃣ Developer pushes code changes  
-2️⃣ CI workflow is automatically triggered  
-3️⃣ CodeQL performs security static analysis  
+2️⃣ GitHub Actions pipeline is triggered automatically  
+3️⃣ CodeQL performs static security analysis  
 4️⃣ Vulnerability insights are generated  
 5️⃣ QA supports risk evaluation and quality governance  
 
-This lifecycle enables **continuous quality intelligence** within the delivery pipeline.
+This workflow enables **continuous security intelligence and proactive quality control**.
 
 ---
 
 ## 📸 Pipeline Execution Evidence
 
-![Security Pipeline Execution](docs/evidences/pipeline-run.gif)
+<p align="center">
+  <img src="docs/evidences/pipeline-run.gif" width="90%" alt="Security Pipeline Execution"/>
+</p>
 
 ---
 
 ## 🧠 Key Engineering Learnings
 
-- Strategic understanding of CI/CD pipelines from a QA perspective  
+- Strategic understanding of CI/CD pipelines from a QA engineering perspective  
 - Integration of security validation into software delivery lifecycle  
-- Preventive defect detection and risk containment  
-- Cross-functional collaboration between QA, DevOps and Security  
-- Engineering mindset focused on reliability and resilience  
+- Preventive defect detection and risk containment approach  
+- Cross-functional collaboration between QA, DevOps and Security teams  
+- Engineering mindset focused on system reliability and resilience  
 
 ---
 
 ## 🚀 Future Evolution
 
-- Integration with automated functional test stages  
+- Integration with automated functional testing stages  
 - Multi-language security scanning expansion  
-- Security alert triage workflow simulation  
-- Quality metrics and observability dashboard  
-- CI quality gates based on risk severity  
+- Security alert triage simulation workflow  
+- Quality metrics dashboard and observability layer  
+- Risk-based CI quality gates  
 
 ---
 
@@ -94,4 +100,4 @@ This lifecycle enables **continuous quality intelligence** within the delivery p
 **Ivaneide Nascimento**  
 QA Engineer | Test Automation | Software Quality | CI/CD | DevSecOps  
 
-Building practical engineering labs to simulate real-world quality challenges.
+Building practical engineering labs to simulate real-world quality challenges and modern software delivery scenarios.
