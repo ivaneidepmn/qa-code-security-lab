@@ -90,6 +90,11 @@ This workflow enables **continuous security intelligence and proactive quality c
 
 Security code scanning concepts were reinforced through Microsoft Learn practical module, supporting real implementation of automated security validation workflows in this engineering lab.
 
+## Continuous Engineering Learning
+
+- Microsoft Learn — Responsible AI with GitHub Copilot  
+- Security Code Scanning with GitHub Actions  
+- DevSecOps quality practices and pipeline governance
 
 ## 🚀 Future Evolution
 
